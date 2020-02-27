@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Blogs\\Usman Bhai blogs\\microsoft-azure-iot-solutions-creating\\06\\demos\\demos\\demo-sample\\demo-sample.csproj": {}
+  },
+  "projects": {
+    "E:\\Blogs\\Usman Bhai blogs\\microsoft-azure-iot-solutions-creating\\06\\demos\\demos\\demo-sample\\demo-sample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Blogs\\Usman Bhai blogs\\microsoft-azure-iot-solutions-creating\\06\\demos\\demos\\demo-sample\\demo-sample.csproj",
+        "projectName": "demo-sample",
+        "projectPath": "E:\\Blogs\\Usman Bhai blogs\\microsoft-azure-iot-solutions-creating\\06\\demos\\demos\\demo-sample\\demo-sample.csproj",
+        "packagesPath": "C:\\Users\\saifullah.afzal\\.nuget\\packages\\",
+        "outputPath": "E:\\Blogs\\Usman Bhai blogs\\microsoft-azure-iot-solutions-creating\\06\\demos\\demos\\demo-sample\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saifullah.afzal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Azure.Devices.Client": {
+              "target": "Package",
+              "version": "[1.18.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
